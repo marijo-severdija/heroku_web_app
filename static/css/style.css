@@ -1,0 +1,8 @@
+/*
+refresh stranice ctrl + shift + R u web browseru ako se ne prikazuje CSS
+*/
+
+body {
+    background-color: lightblue;
+    font-family: 'Arial', sans-serif;
+}

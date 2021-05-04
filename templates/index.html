@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Moja web aplikacija</h1>
+
+    <p>Python i Flask su zakon.</p>
+
+    <p> {{ poruka }} </p>
+
+    <p> {{ gradovi }} </p>
+
+    {% for x in gradovi %}
+        <p> {{ x }} </p>
+    {% endfor %}
+
+{% endblock content %}
